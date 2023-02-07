@@ -1,0 +1,97 @@
+body{
+    margin: 0px 0px;
+    font-family: Times New Roman;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.container
+{
+    text-align: center;
+    padding: 30px;
+}
+
+label{
+   font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+label.paste_label{
+    size: 2em;
+    width: 100%;
+    text-align: center;
+    padding: 7px 0px;
+    font-weight: bolder;
+    font-size: 3.5em;
+}
+
+label.heading{
+  font-family: 'Brush Script MT', cursive;
+    padding-left: 10px;
+    font-size: 2em;
+    font-weight: bold;
+background: -webkit-linear-gradient(#00FF00, #008080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+input{
+    left: 10px;
+    width: 450px;
+    margin: 25px 0;
+    padding: 10px 10px;
+    border:2px solid black;
+    border-radius: 30px;
+    background-color: C0C0C0;
+    color: black;
+    outline: none;
+}
+
+button{
+    left: 15px;
+    padding: 10px;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 1em;
+    color: ivory;
+    background-color:LightSeaGreen;
+    outline: none;
+}
+
+button:hover{
+    color:white;
+    transform: scale(1.05);
+}
+
+button:active{
+    transform: translateY(2px);
+}
+
+
+
+label.summary_label{
+    text-align: left;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+textarea{
+    padding: 30px;
+    outline: none;
+    left: 10px;
+    width: 800px;
+    height: 300px;
+    padding: 20px 20px;
+  background-image: linear-gradient(to bottom,  rgba(250,245,240, 1) 0%, rgba(250,245,240, 1) 100%), linear-gradient(to bottom, rgba(141, 245, 146, 1), rgba(255, 255, 255, 1),rgba(244, 244, 244, 1), rgba(102,205,170, 1));
+background-clip: content-box, padding-box;
+
+    line-height: 25px;
+    margin-top: 30px;
+    border-radius: 25px;
+    background-color:white;
+    color: black;
+    overflow: auto;
+}
+
+
